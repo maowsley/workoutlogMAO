@@ -69,8 +69,8 @@ router.put("/log/:id", validateJWT, async (req,res) => {
 
     const query = {
         where: {
-            id: workoutLogId,
-            id: userId
+            userId: workoutLogId,
+            userId: userId
         }
     };
 
